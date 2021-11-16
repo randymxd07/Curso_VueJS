@@ -1,18 +1,33 @@
 <template>
+
+  <!-----------
+      Imagen 
+  ------------->
   <img alt="Vue logo" src="./assets/logo.png">
   
-  <Counter :start="100" />
+  <!-----------------------
+      Componente Counter 
+  ------------------------->
+  <Counter :start="100" title="HOLA"/>
 
 </template>
 
 <script>
+
+// Importo el componente Counter //
 import Counter from './components/Counter.vue'
 
+// Para exportar lo que esté aquí adentro //
 export default {
+
+  // Esto hace referencia a lo que se va a renderizar en el archivo main.js //
   name: 'App',
+
+  // Para usar los componentes importados //
   components: {
-    Counter
+    Counter // Componente Counter //
   }
+
 }
 </script>
 

@@ -1,7 +1,5 @@
 <template>
-
     <h2>{{ customTitle }} </h2>
-
     <p> {{ counter }} <sup>2</sup> = {{ squareCounter }} </p>
 
     <div>
@@ -24,7 +22,7 @@ export default {
             }
         }
     },
-    // name: 'Patito', // Esto es un nombre que se le puede dar al componente //
+    // name: 'Patito'
     data() {
         return {
             counter: this.start
